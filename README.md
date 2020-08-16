@@ -1,4 +1,11 @@
+# React Personal Setup
+
+My personal set-up for React to be used as template when initializing a project.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Details
+* ESLint and Prettier configurations
 
 ## Available Scripts
 
