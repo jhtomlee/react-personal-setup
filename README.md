@@ -1,6 +1,6 @@
 # React Personal Setup
 
-My personal set-up for React to be used as template when initializing a project.
+My personal setup for React to be used as template when starting new projects.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
