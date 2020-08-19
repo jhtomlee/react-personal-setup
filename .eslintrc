@@ -9,7 +9,7 @@
     "sourceType": "module"
   },
   "env": {
-    "browser": true,
+    "browser": true
   },
   "rules": {
     "prettier/prettier": [
