@@ -58,7 +58,11 @@ yarn add --dev eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-
 * Default formatting rules for Prettier can be overriden in `.prettierrc`
 
 ### 2. UI Framework
-- [ ] [Material UI](https://material-ui.com/)
+- [x] [Material UI](https://material-ui.com/)
+
+#### Notes:
+* Applied [theming](https://material-ui.com/customization/theming/) and [css baseline](https://material-ui.com/components/css-baseline/) 
+* Applied Material UI's way of [styling](https://material-ui.com/styles/basics/)
 
 ### 3. State management
 - [ ] [Redux](https://redux.js.org/)
