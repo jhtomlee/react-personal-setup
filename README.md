@@ -69,7 +69,7 @@ yarn add --dev eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-
 - [ ] [React Hooks](https://reactjs.org/docs/hooks-overview.html)
 
 ### 4. Other dependencies
-- [ ] [React Router](https://reactrouter.com/web/guides/quick-start)
+- [x] [React Router](https://reactrouter.com/web/guides/quick-start)
 - [ ] [React Drag and Drop](https://react-dnd.github.io/react-dnd/examples/tutorial)
 
 
