@@ -1,45 +1,22 @@
 import React from 'react';
-import { Container, Typography, Box, Link } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import ProTip from './components/ProTip';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AppBar from './components/AppBar';
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        jhtomlee
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
-const useStyles = makeStyles({
-  root: {
-    flexGrow: 1,
-  },
-});
+import Home from './components/Home';
+import User from './components/User';
 
 function App() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
+    <Router>
       <AppBar />
-      <Container maxWidth="false">
-        <Box my={4}>
-          <Typography variant="h4" component="h1" gutterBottom>
-            My React Set-up
-          </Typography>
-          <ProTip />
-          <Copyright />
-        </Box>
-      </Container>
-    </div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/profile">
+          <User />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
-
 export default App;

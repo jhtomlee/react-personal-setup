@@ -1,13 +1,9 @@
 import React from 'react';
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Button,
-  IconButton,
-} from '@material-ui/core';
+import { AppBar, Toolbar, Typography, IconButton } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
+import HomeIcon from '@material-ui/icons/Home';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
@@ -35,7 +31,17 @@ export default function ButtonAppBar() {
         <Typography variant="h6" className={classes.title}>
           Welcome!
         </Typography>
-        <Button color="inherit">Login</Button>
+        <IconButton edge="start" color="inherit" aria-label="home" href="/">
+          <HomeIcon />
+        </IconButton>
+        <IconButton
+          edge="start"
+          color="inherit"
+          aria-label="profile"
+          href="/profile"
+        >
+          <AccountCircleIcon />
+        </IconButton>
       </Toolbar>
     </AppBar>
   );
