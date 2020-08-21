@@ -2,15 +2,14 @@
 
 My personal setup to be used as template when initializing a new React project.
 
-## Details
 
-### 1. Pre-commit hooks
+## 1. Pre-commit hooks
 - [x] [Husky](https://github.com/typicode/husky) - to run commands or scripts before committing or pushing
 - [x] [Prettier](https://prettier.io/docs/en/precommit.html) - to format code
 - [x] [ESLint](https://eslint.org/docs/user-guide/getting-started) - to find and fix problems in code
 - [x] [lint-staged](https://github.com/okonet/lint-staged) - to run multiple linters (e.g. Prettier and ESLint) against staged git files
 
-#### Steps 
+### Steps 
 
 1) Add `devDependencies`: 
 ```
@@ -52,28 +51,28 @@ yarn add --dev eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-
 }
 ```
 
-#### Notes:
+### Notes:
 * Used `airbnb` [style guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) to `lint` and `style`
 * Additional linting rules can be added in `.eslintrc`
 * Default formatting rules for Prettier can be overriden in `.prettierrc`
 
-### 2. UI Framework
+## 2. UI Framework
 - [x] [Material UI](https://material-ui.com/)
 
-#### Notes:
+### Notes:
 * Applied [theming](https://material-ui.com/customization/theming/) and [css baseline](https://material-ui.com/components/css-baseline/) 
 * Applied Material UI's way of [styling](https://material-ui.com/styles/basics/)
 
-### 3. State management
+## 3. State management
 - [ ] [Redux](https://redux.js.org/)
 - [ ] [React Hooks](https://reactjs.org/docs/hooks-overview.html)
 
-### 4. Other dependencies
+## 4. Other dependencies
 - [x] [React Router](https://reactrouter.com/web/guides/quick-start)
 - [ ] [React Drag and Drop](https://react-dnd.github.io/react-dnd/examples/tutorial)
 
 
-## About
+# About
 * Created by [jhtomlee](https://github.com/jhtomlee)
 
 
